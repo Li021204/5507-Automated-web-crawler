@@ -13,8 +13,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import quote
 import datetime as dt
 
-import douban
-
 
 def crawl_zol_products(start_page=1, end_page=3):
     """
